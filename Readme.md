@@ -22,8 +22,8 @@ Before running the script, ensure you have:
 2. Create a virtual enviroment and activate it:
    ```sh
    python -m venv venv
-   <!-- On linux or MacOS --> source venv/bin/activate
-   <!-- On Windows: venv\Scripts\activate -->
+   source venv/bin/activate # on linux or MacOS
+   venv\Scripts\activate # On Windows
    ```
 
 3. Install dependencies:
