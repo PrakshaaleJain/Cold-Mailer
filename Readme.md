@@ -63,5 +63,5 @@ python3 send_email.py
 This project is licensed under the MIT License.
 
 ## Author
-Your Name - [Prakshaale Jain](https://github.com/PrakshaaleJain)
+[Prakshaale Jain](https://github.com/PrakshaaleJain)
 
