@@ -42,6 +42,11 @@ Before running the script, ensure you have:
    ```python
    attachment_path = "path/to/attachment"
    ```
+4. Set the email file path:
+   ```python
+   with open("path/to/emails.txt", "r") as file:
+      email_list = [l.strip() for l in file if l.strip()]
+   ```
 
 ## Usage
 Run the script using:
@@ -58,5 +63,5 @@ python3 send_email.py
 This project is licensed under the MIT License.
 
 ## Author
-Your Name - [GitHub Profile](https://github.com/your-username/)
+Your Name - [GitHub Profile](https://github.com/PrakshaaleJain)
 
