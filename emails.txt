@@ -1,0 +1,5 @@
+reciever1@email.com
+reciever2@email.com
+reciever3@email.com
+reciever4@email.com
+reciever5@email.com
