@@ -7,8 +7,8 @@ import os
 
 
 # Email credentials
-email = "recipient@email.com"  # Your email
-password = "password"  # App password generated that can be created by going to https://myaccount.google.com/
+email = "your-email@gmail.com"  # Your email
+password = "your-app-password"  # App password generated that can be created by going to https://myaccount.google.com/
 
 
 # Email content
@@ -16,8 +16,12 @@ subject = "Test Email from Python"
 body = "Hello, this is a test email sent using Python with attachment."
 text = f"Subject: {subject}\n\n{body}"
 
-with open("emails.txt", "r") as file:
-    email_list = [l.strip() for l in file if l.strip()]  
+email_list = []
+try:
+    with open("path/to/emails.txt", "r") as file:
+        email_list = [l.strip() for l in file if l.strip()]
+except FileNotFoundError as e:
+    print(f"Error: {e}")
 
 # Setting up the SMTP server using smtplib
 server = smtplib.SMTP('smtp.gmail.com', 587)
