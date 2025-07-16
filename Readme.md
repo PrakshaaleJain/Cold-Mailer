@@ -51,7 +51,7 @@ Before running the script, ensure you have:
 ## Usage
 Run the script using:
 ```sh
-python3 send_email.py
+python3 main.py
 ```
 
 ## Notes
